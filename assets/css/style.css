@@ -290,11 +290,12 @@ html {
 /* ================ SCROLLBAR =================  */
 ::-webkit-scrollbar {
   width: 10px;
+  border-radius: 5px;
 }
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: var(--clr-skin);
+  background: transparent;
 }
 
 /* Handle */
