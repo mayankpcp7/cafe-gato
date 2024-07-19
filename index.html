@@ -294,7 +294,7 @@
                             src="/assets/images/svg/call.svg" alt="instagram"></a>
                 </div>
                 <span class="mt-1 d-flex footer_line w-100 my-3" h="1"></span>
-                <p class="text-white font_inter fs_xsm">©2024 CafeGato | All Rights reserved</p>
+                <p id="footer-text" class="text-white font_inter fs_xsm"></p>
             </div>
         </footer>
         <!-- =================== BACK TO TOP ====================================== -->
@@ -352,6 +352,12 @@
                 document.documentElement.scrollTop = 0;
             });
         });
+    </script>
+    <!-- =============== COPYRIGHT FUNCTION =============-->
+    <script>
+        const currentYear = new Date().getFullYear();
+        const footerText = document.getElementById('footer-text');
+        footerText.textContent = `©${currentYear} CafeGato | All Rights Reserved`;
     </script>
     <!-- ================== AOS ========================= -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
