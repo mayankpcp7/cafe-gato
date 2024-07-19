@@ -1,0 +1,504 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.nav_logo {
+  max-width: 155.31px;
+}
+.hero_top_cloud {
+  max-width: 193px;
+  right: 39.4%;
+  top: 42px;
+}
+.main_heading {
+  max-width: 640px;
+}
+
+.main_para {
+  max-width: 545px;
+}
+.hero_lady {
+  max-width: 711px;
+  right: -1px;
+  top: 66px;
+}
+.hero_light {
+  right: 32%;
+  animation: move-bulb 2s ease-in-out infinite;
+}
+.hero_cloud_text {
+  min-width: 200px;
+  text-shadow: 2px 4px 7.1px #00000040;
+  transform: translate(-50%, -70%);
+}
+.transition_300 {
+  transition: 300ms linear;
+}
+/* ================================== RESTAURANT ============================== */
+.restaurant_vector {
+  max-width: 160px;
+}
+/* ================================== About CAFE GATO ========================= */
+.about_spacing {
+  padding: 128px 0px;
+}
+
+.bottom_shadow {
+  border: 4px solid #09384e;
+  box-shadow: 0px 22px 0px 0px #09384e;
+  border-radius: 13px;
+}
+.bottom_shadow:hover {
+  box-shadow: 0px 12px 0px 0px #09384e;
+}
+.about_flex_text {
+  max-width: 614px;
+}
+.about_man {
+  max-width: 413.76px;
+}
+.skypaws_bottom {
+  bottom: 21px;
+  left: 37px;
+}
+.skypaws_right {
+  top: 55px;
+  right: 59px;
+}
+.skypaws_center {
+  bottom: 140px;
+  right: 81px;
+}
+.about_right_paws {
+  top: 50px;
+  animation: moving-paws 4s ease-in-out infinite;
+}
+.mission_cat {
+  max-width: 118px;
+  left: 506px;
+}
+.left_paws {
+  animation: moving-paws 4s ease-in-out infinite;
+}
+/* ============ OUR MISSION =========== */
+.our_mission_spacing {
+  padding-top: 89px;
+}
+.mission_lady {
+  max-width: 459px;
+}
+.mission_heading {
+  margin-top: 77px;
+}
+.mission_para {
+  max-width: 600px;
+}
+.mission_sky_paws {
+  top: 40%;
+  left: -10%;
+}
+/* =========== BENIFIT ================  */
+.benifit_spacing {
+  margin-top: 219px;
+  margin-bottom: 197px;
+}
+.benifit_cat_logo {
+  max-width: 301px;
+}
+.benifit_card {
+  max-width: 530px;
+  padding: 0px 56px;
+}
+.benifit_para {
+  max-width: 417px;
+}
+.benifit_top_vector {
+  top: -2%;
+}
+.benifit_bottom_vector {
+  bottom: -18%;
+  transform: rotatey(-180deg);
+  left: -2.8%;
+}
+/* ========== JOIN OUR JOURNEY ============= */
+.journey_para {
+  max-width: 590px;
+}
+.journey_women {
+  max-width: 409px;
+}
+.journey_vector {
+  transform: rotateY(-180deg);
+  top: 10%;
+  left: -5%;
+}
+.journey_paws {
+  bottom: 32%;
+  left: 5%;
+  animation: moving-paws 4s ease-in-out infinite; /* Slower animation */
+}
+.journey_spacing {
+  padding-bottom: 114px;
+}
+
+/* ============= THANKYOU TOGETHER ============= */
+.thankyou_spacing {
+  padding-top: 151px;
+  padding-bottom: 181px;
+}
+
+.thankyou_heading {
+  max-width: 787px;
+}
+.thankyou_right_light {
+  right: 58px;
+  top: -30%;
+}
+.thankyou_left_light {
+  left: 58px;
+  top: 0%;
+}
+/* ============== STAY CONNECTED ================ */
+.connected_input {
+  border: 3px solid #09384e;
+  border-radius: 72px;
+  min-height: 90px;
+  max-width: 471px;
+  padding: 0px 29px;
+  margin-bottom: 36px;
+  outline: none;
+}
+.connected_input::placeholder {
+  color: var(--clr-blue);
+  padding-right: 29px;
+  font-family: "Inter", sans-serif;
+}
+.submit_btn {
+  max-width: 471px;
+  padding: 31px 0px;
+  border: 0px;
+  box-shadow: 0px 4px 25.6px 0px #f87b54c7;
+  border: 2px var(--clr-brown);
+  border-radius: 72px;
+}
+.submit_btn:hover {
+  box-shadow: 0px 4px 5.6px 0px #f87b54c7;
+  background-color: #09384e;
+}
+.connected_man {
+  max-width: 500px;
+}
+.connected_vector {
+  right: -9%;
+  top: 15%;
+}
+.connected_bottom_spacing {
+  padding-bottom: 233px;
+}
+.connected_skypaws {
+  right: 5%;
+  top: 25%;
+}
+.right_paws {
+  top: -14%;
+  animation: moving-paws 4s ease-in-out infinite;
+}
+/* ================== BACK TO TOP CSS =============  */
+#back_to_top_btn {
+  bottom: 20px;
+  right: 20px;
+  cursor: pointer;
+}
+
+#back_to_top_btn:hover {
+  transform: scale(1.1);
+}
+@media (max-width: 1399.98px) {
+  .hero_lady {
+    max-width: 630px;
+  }
+  .hero_right_vector {
+    max-width: 600px;
+  }
+  .hero_text_cloud {
+    max-width: 300px;
+  }
+}
+
+@media (max-width: 1199.98px) {
+  .connected_bottom_spacing {
+    padding-bottom: 100px;
+  }
+  .submit_btn {
+    padding: 25px 0px;
+  }
+  .connected_input {
+    min-height: 80px;
+  }
+  .thankyou_spacing {
+    padding: 100px 0px;
+  }
+  .thankyou_right_light {
+    right: 18px;
+  }
+  .thankyou_left_light {
+    left: 18px;
+    top: 0%;
+  }
+  .journey_vector {
+    top: 20%;
+  }
+
+  .journey_spacing {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  .our_mission_spacing {
+    padding-bottom: 100px;
+  }
+  .benifit_spacing {
+    margin: 100px 0px;
+  }
+  .about_spacing {
+    padding: 100px 0px;
+  }
+  .restaurant_vector {
+    max-width: 120px;
+  }
+  .main_para {
+    max-width: 440px;
+  }
+  .hero_lady {
+    max-width: 630px;
+    right: -90px;
+  }
+  .main_heading {
+    max-width: 500px;
+  }
+}
+.footer_icons:hover {
+  transform: scale(115%);
+}
+.gap_38 {
+  gap: 38px;
+}
+.footer_line {
+  height: 1px;
+  background-color: #3d6273;
+}
+
+/* ================ SCROLLBAR =================  */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: var(--clr-skin);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--clr-brown);
+}
+
+@media (max-width: 991.98px) {
+  .connected_vector,
+  .our_mission_vector {
+    max-width: 600px;
+  }
+  .connected_bottom_spacing {
+    padding-bottom: 100px;
+  }
+  .journey_spacing {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  .thankyou_spacing {
+    padding: 80px 0px;
+  }
+  .journey_vector {
+    max-width: 600px;
+  }
+  .our_mission_spacing {
+    padding-bottom: 80px;
+  }
+  .connected_man {
+    max-width: 400px;
+  }
+  .connected_input {
+    min-height: 60px;
+  }
+  .submit_btn {
+    padding: 18px 0px;
+  }
+  .benifit_spacing {
+    margin: 80px 0px;
+    padding-bottom: 24px;
+  }
+  .journey_women {
+    max-width: 359px;
+  }
+  .benifit_cat_logo {
+    max-width: 200px;
+  }
+  .benifit_card {
+    padding: 0px 22px;
+  }
+  .mission_heading {
+    margin-top: 24px;
+  }
+  .mission_lady {
+    max-width: 359px;
+  }
+  .mission_cat {
+    max-width: 100px;
+  }
+  .about_right_paws {
+    max-width: 100px;
+  }
+  .about_spacing {
+    padding: 80px 0px;
+  }
+  .about_man {
+    max-width: 350.76px;
+  }
+  .restaurant_vector {
+    max-width: 100px;
+  }
+  .hero_lady {
+    max-width: 450px;
+  }
+  .hero_top_cloud {
+    right: 8%;
+  }
+  .main_para {
+    max-width: 700px;
+  }
+  .main_heading {
+    max-width: 767px;
+  }
+  .hero_light {
+    top: -8%;
+    right: 3%;
+    max-width: 67px;
+  }
+  .hero_right_vector {
+    max-width: 300px;
+  }
+  .nav_logo {
+    max-width: 120px;
+  }
+}
+@media (max-width: 767.98px) {
+  .footer_icon {
+    max-width: 25px;
+  }
+  .connected_bottom_spacing {
+    padding-bottom: 80px;
+  }
+  .thankyou_spacing {
+    padding: 64px 0px;
+  }
+  .journey_spacing {
+    padding-top: 22px;
+    padding-bottom: 0px;
+  }
+  .our_mission_spacing {
+    padding-bottom: 0px;
+  }
+  .benifit_spacing {
+    margin: 64px 0px;
+    padding-bottom: 24px;
+  }
+  .journey_women {
+    max-width: 309px;
+  }
+  .our_mission_spacing {
+    padding-top: 64px;
+  }
+  .about_spacing {
+    padding: 64px 0px 22px;
+  }
+  .restaurant_vector {
+    max-width: 80px;
+  }
+  .main_heading {
+    max-width: 580px;
+  }
+  .main_para {
+    max-width: 560px;
+  }
+  .hero_lady {
+    max-width: 435px;
+  }
+  .hero_text_cloud {
+    max-width: 270px;
+  }
+  .mission_lady {
+    max-width: 300px;
+  }
+  .connected_man {
+    max-width: 300px;
+  }
+}
+@media (max-width: 575.98px) {
+  .gap_38 {
+    gap: 20px;
+  }
+  .footer_icon {
+    max-width: 20px;
+  }
+  .connected_bottom_spacing {
+    padding-bottom: 64px;
+  }
+  .restaurant_vector {
+    max-width: 50px;
+  }
+  .main_heading {
+    max-width: 580px;
+  }
+  .main_para {
+    max-width: 560px;
+  }
+  .hero_lady {
+    max-width: 355px;
+  }
+  .nav_logo {
+    max-width: 100px;
+  }
+  .hero_light {
+    max-width: 60px;
+  }
+  .about_man {
+    max-width: 300.76px;
+  }
+  .font_sm {
+    font-size: 25px !important;
+  }
+}
+
+/* =========== ANIMATION ============== */
+@keyframes move-bulb {
+  0% {
+    transform: translateX(-50%) translateX(-30px);
+  }
+  50% {
+    transform: translateX(-50%) translateX(30px);
+  }
+  100% {
+    transform: translateX(-50%) translateX(-30px);
+  }
+}
+
+@keyframes moving-paws {
+  0% {
+    transform: translateY(-30px);
+  }
+  50% {
+    transform: translateY(30px);
+  }
+  100% {
+    transform: translateY(-30px);
+  }
+}
