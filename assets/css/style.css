@@ -135,7 +135,7 @@ html {
 .journey_paws {
   bottom: 32%;
   left: 5%;
-  animation: moving-paws 4s ease-in-out infinite; /* Slower animation */
+  animation: moving-paws 4s ease-in-out infinite;
 }
 .journey_spacing {
   padding-bottom: 114px;
