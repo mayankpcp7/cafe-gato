@@ -13,12 +13,12 @@
   --fs-sm: 20px;
   --fs-xsm: 16px;
   /*===== COLORS ======== */
-  --clr-purple: #a89bb7;
-  --clr-blue: #09384e;
-  --clr-skin: #f9ab97;
-  --clr-brown: #f87b54;
-  --clr-sky: #6fcacf;
-  --clr-offwhite: #fcfbe3;
+  --text-purple: #a89bb7;
+  --text-blue: #09384e;
+  --text-skin: #f9ab97;
+  --text-brown: #f87b54;
+  --text-sky: #6fcacf;
+  --text-offwhite: #fcfbe3;
 }
 
 .fs_xl {
@@ -37,40 +37,40 @@
   font-size: var(--fs-xsm);
 }
 /* -------- COLORS ------ */
-.clr_blue {
-  color: var(--clr-blue);
+.text_blue {
+  color: var(--text-blue);
 }
-.clr_skin {
-  color: var(--clr-skin);
+.text_skin {
+  color: var(--text-skin);
 }
-.clr_brown {
-  color: var(--clr-brown);
+.text_brown {
+  color: var(--text-brown);
 }
-.clr_purple {
-  color: var(--clr-purple);
+.text_purple {
+  color: var(--text-purple);
 }
-.clr_offwhite {
-  color: var(--clr-offwhite);
+.text_offwhite {
+  color: var(--text-offwhite);
 }
 
-.clr_sky {
-  color: var(--clr-sky);
+.text_sky {
+  color: var(--text-sky);
 }
 /* === BACKGROUND COLORS  ===*/
 .bg_offwhite {
-  background-color: var(--clr-offwhite);
+  background-color: var(--text-offwhite);
 }
 .bg_purple {
-  background-color: var(--clr-purple);
+  background-color: var(--text-purple);
 }
 .bg_sky {
-  background-color: var(--clr-sky);
+  background-color: var(--text-sky);
 }
 .bg_brown {
-  background-color: var(--clr-brown);
+  background-color: var(--text-brown);
 }
 .bg_blue {
-  background-color: var(--clr-blue);
+  background-color: var(--text-blue);
 }
 /*====== FONT FAMILIES =======*/
 
@@ -103,7 +103,7 @@
   margin: 0 auto;
 }
 
-.mw_1920 {
+.page_size {
   max-width: 1920px;
   margin: 0 auto;
 }

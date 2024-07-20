@@ -5,16 +5,6 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>CafeGato</title>
-    <!-- ========================== FAVICON ====================================== -->
-    <link rel="icon" href="/assets/images/png/favicon.png" />
-    <!--========================= STYLE SHEET ===================================== -->
-    <link rel="stylesheet" href="/assets/css/style.css">
-    <link rel="stylesheet" href="/assets/css/root.css">
-    <!-- ============================ AOS  ======================================= -->
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <!-- ======================= BOOTSTRAP CDN ==================================== -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <!-- ======================== META TAGS ==================================== -->
     <meta name="title" content="Meta Tags — Preview, Edit and Generate" />
     <meta name="description"
@@ -31,18 +21,30 @@
     <meta property="twitter:description"
         content="With Meta Tags you can edit and experiment with your content then preview how your webpage will look on Google, Facebook, Twitter and more!" />
     <meta property="twitter:image" content="https://thumbs2.imgbox.com/02/4d/qgqt8AJf_t.png" alt="image host" />
+    <!-- ========================== FAVICON ====================================== -->
+    <link rel="icon" href="/assets/images/png/favicon.png" />
+    <!--========================= STYLE SHEET ===================================== -->
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/root.css">
+    <!-- ============================ AOS  ======================================= -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- ======================= BOOTSTRAP CDN ==================================== -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
 </head>
 
 <body>
     <!-- ========================== HEADER ======================================-->
-    <div class="mw_1920 overflow-hidden bg_offwhite">
+    <div class="page_size overflow-hidden bg_offwhite">
         <header class="position-relative">
-            <img data-aos="fade-right" data-aos-duration="1200"
+            <img data-aos="fade-left" data-aos-duration="1200"
                 class="position-absolute d-md-block d-none end-0 hero_right_vector"
                 src="/assets/images/webp/hero-bg-vector.webp" alt="hero-bg-vector">
             <img class="position-absolute hero_top_cloud d-sm-block d-none" src="/assets/images/webp/clouds.webp"
                 alt="hero-blue-cloud">
-            <img class="position-absolute hero_light" src="/assets/images/svg/hero-light.svg" alt="hero-light">
+            <img data-aos="fade-down" class="position-absolute hero_light" src="/assets/images/svg/hero-light.svg"
+                alt="hero-light">
             <img data-aos="fade-left" class="d-lg-block d-none position-absolute hero_lady"
                 src="/assets/images/webp/hero-lady.webp" alt="hero-lady">
             <div class="custom_container">
@@ -52,12 +54,12 @@
                     data-aos="fade-up" data-aos-duration="1200">
                     <div class="d-flex flex-column align-items-center align-items-lg-start position-relative z-10">
                         <h1
-                            class="fs_xl clr_blue text-lg-start mb-0 mb-md-2 text-center font_norwester lh_120 main_heading fw-normal">
+                            class="fs_xl text_blue text-lg-start mb-0 mb-md-2 text-center font_norwester lh_120 main_heading fw-normal">
                             Join us in building
                             Providence's
-                            <span class="clr_brown"> first ever Cat Cafe!</span>
+                            <span class="text_brown"> first ever Cat Cafe!</span>
                         </h1>
-                        <p class="font_inter text-center text-lg-start fw-normal clr_blue fs_sm lh_121 main_para pt-3">
+                        <p class="font_inter text-center text-lg-start fw-normal text_blue fs_sm lh_121 main_para pt-3">
                             Hi there! We are thrilled
                             to
                             introduce ourselves as Cafe Gato, in the process of opening the
@@ -70,12 +72,12 @@
                             class="d-flex pt-1 w-100 justify-content-xl-center justify-content-center justify-content-lg-start">
                             <div class="position-relative">
                                 <p
-                                    class="position-absolute hero_cloud_text top-50 text-center start-50 clr_blue font_inter lh_121 fs_md mb-0 fw-semibold">
+                                    class="position-absolute hero_cloud_text fs_sm_14 top-50 text-center start-50 text_blue font_inter lh_121 fs_md mb-0 fw-semibold">
                                     thank you for being one of the first people to join us on this journey!</p><img
                                     class="hero_text_cloud" src="/assets/images/svg/hero-blue-cloud.svg"
                                     alt="hero-blue-cloud">
                             </div>
-                            <img class="mt-5 d-lg-block d-none" src="/assets/images/svg/hero-cat.svg" alt="hero-cat">
+                            <img class="mt-5" src="/assets/images/svg/hero-cat.svg" alt="hero-cat">
                         </div>
                     </div>
                     <img class=" hero_lady d-block mobile_lady w-full w-md-auto d-lg-none mt-lg-5 "
@@ -93,22 +95,22 @@
             alt="restaurant">
         <!-- ===================== ABOUT CAFE GATO =========================== -->\
         <section class="about_spacing position-relative">
-            <img class="position-absolute about_right_paws end-0 d-md-block d-none"
+            <img class="position-absolute card-group about_right_paws end-0 d-md-block d-none"
                 src="/assets/images/svg/right-paws.svg" alt="right-paws">
             <div class="custom_container ">
                 <h2 data-aos="fade-up" data-aos-duration="1200"
-                    class="clr_blue fs_lg font_norwester pb-lg-3 mb-md-5 mb-4 text-center fw-normal lh_120">ABOUT CAFE
+                    class="text_blue fs_lg font_norwester pb-lg-3 mb-md-5 mb-4 text-center fw-normal lh_120">ABOUT CAFE
                     GATO</h2>
                 <div
                     class="d-flex flex-md-row bottom_shadow flex-column-reverse py-4 pt-xl-0 pb-xl-1 pe-2 pe-xl-0 position-relative ps-1 align-items-center transition_300 mx-auto about_flex">
-                    <img class="position-absolute d-none d-md-block skypaws_bottom"
+                    <img class="position-absolute d-none d-lg-block skypaws_bottom"
                         src="/assets/images/svg/sky-paws.svg" alt="sky-paws">
                     <img class="position-absolute d-md-block d-none skypaws_center"
                         src="/assets/images/svg/sky-paws.svg" alt="sky-paws">
                     <img class="position-absolute d-md-block d-none skypaws_right" src="/assets/images/svg/sky-paws.svg"
                         alt="sky-paws">
                     <p data-aos="fade-right" data-aos-duration="1200"
-                        class="ps-lg-4 text-md-start text-center ps-2 ms-lg-2 text-start clr_blue me-lg-4 me-1 lh_170 fs_sm mb-0 font_inter about_flex_text">
+                        class="ps-lg-4 text-md-start text-center ps-2 ms-lg-2 text-start text_blue me-lg-4 me-1 lh_170 fs_sm mb-0 font_inter about_flex_text">
                         Founded by Maximo
                         and Kaylin
                         Mugica-Drumm, Cafe Gato is a unique space where coffee lovers and
@@ -135,16 +137,20 @@
                     <img data-aos="fade-up" data-aos-duration="1200"
                         class="mission_cat d-md-block d-none position-absolute bottom-0 "
                         src="/assets/images/webp/mission-cat.webp" alt="mission-cat">
-                    <img data-aos="fade-left" data-aos-duration="1200" class="mission_lady ms-lg-5"
+                    <h2
+                        class="fs_lg d-md-none d-block  font_norwester fw-normal text-md-start text-center pb-3 mission_heading lh_120">
+                        OUR MISSION</h2>
+                    <img data-aos="fade-left" data-aos-duration="1200" class="mission_lady my-4 my-md-0 mt ms-lg-5"
                         src="/assets/images/webp/our-mission-lady.webp" alt="our-mission-lady">
                     <div data-aos="fade-left" data-aos-duration="1200"
                         class="d-flex position-relative flex-column ms-lg-3 ms-1 ps-1">
                         <img class="mission_sky_paws d-md-block d-none position-absolute"
                             src="/assets/images/svg/sky-paws.svg" alt="sky-paws">
                         <h2
-                            class="fs_lg font_norwester fw-normal text-md-start text-center mb-1 pb-3 mission_heading lh_120">
+                            class="fs_lg d-md-block d-none font_norwester fw-normal text-md-start text-center mb-1 pb-3 mission_heading lh_120">
                             OUR MISSION</h2>
-                        <p class="text-start mission_para clr_blue text-md-start text-center lh_170 font_inter fs_sm">We
+                        <p class="text-start mission_para text_blue text-md-start text-center lh_170 font_inter fs_sm">
+                            We
                             believe in the therapeutic power of
                             cats and
                             coffee. Our cafe aims to provide a
@@ -165,15 +171,15 @@
                 src="/assets/images/webp/sky-vector.webp" alt="sky-vector">
             <div class="custom_container">
                 <h2 data-aos="fade-left" data-aos-duration="1500"
-                    class="clr_blue mb-1 font_norwester text-md-start text-center fs_lg fw-normal lh_120">BENEFITS</h2>
+                    class="text_blue mb-1 font_norwester text-md-start text-center fs_lg fw-normal lh_120">BENEFITS</h2>
                 <div
-                    class="d-flex flex-md-row align-items-center gap-5 gap-md-0 flex-column mt-5 pt-lg-4 justify-content-between">
+                    class="d-flex flex-md-row gap-5 gap-md-0 align-items-center align-items-md-start flex-column mt-5 pt-lg-4 justify-content-between">
                     <div
                         class="d-flex me-md-2 pb-1 bg_purple h-100 w-100 transition_300 benifit_card bottom_shadow align-items-center pt-6 flex-column">
                         <img data-aos="fade-up" data-aos-duration="1500" class="benifit_cat_logo mt-4 mx-auto"
                             src="/assets/images/webp/nav-logo.webp" alt="logo">
                         <p data-aos="fade-up" data-aos-duration="1500"
-                            class="mt-5 benifit_para font_inter text-center mb-lg-5 pb-4 text-white fs_sm lh_170 benifit_para">
+                            class="mt-lg-5 mt-4 benifit_para font_inter text-center mb-lg-5 pb-lg-4 text-white fs_sm lh_170 benifit_para">
                             Partnering with our local animal
                             shelter, we offer a larger, cage-free environment for our
                             cats to socialize and build
@@ -186,13 +192,12 @@
                         <img data-aos="fade-up" data-aos-duration="1500" class="benifit_cat_logo mt-4 mx-auto"
                             src="/assets/images/webp/benifit-man.webp" alt="logo">
                         <p data-aos="fade-up" data-aos-duration="1500"
-                            class="mt-5 benifit_para font_inter text-center mb-lg-5 pb-4 text-white fs_sm lh_170 benifit_para">
-                            Partnering with our local animal
-                            shelter, we offer a larger, cage-free environment for our
-                            cats to socialize and build
-                            confidence around people and other cats. This environment helps improve their overall
-                            well-being and increases their
-                            chances of finding their forever home.</p>
+                            class="mt-lg-5 mt-4 benifit_para font_inter text-center mb-lg-5 pb-lg-4 text-white fs_sm lh_170 benifit_para">
+                            Spending time with cats has been shown to reduce stress and anxiety, improve mood, and offer
+                            a unique and enjoyable
+                            experience. Whether you're a student, a working professional, or a family, our café offers a
+                            little slice of happiness
+                            and relaxation for all!</p>
                     </div>
                 </div>
             </div>
@@ -207,17 +212,22 @@
                 <div class="d-flex flex-md-row align-items-center flex-column-reverse justify-content-between">
                     <div data-aos="fade-right" data-aos-duration="1200" class="d-flex flex-column me-1 pe-1">
                         <h2
-                            class="fs_lg font_norwester mt-4 mt-md-0 fw-normal text-md-start text-center mb-1 pb-3 lh_120">
+                            class="fs_lg d-none d-md-block font_norwester mt-4 mt-md-0 fw-normal text-md-start text-center mb-1 pb-3 lh_120">
                             JOIN OUR JOURNEY
                         </h2>
-                        <p class="text-start journey_para clr_blue text-md-start text-center lh_170 font_inter fs_sm">We
+                        <p class="text-start journey_para text_blue text-md-start text-center lh_170 font_inter fs_sm">
+                            We
                             invite you to follow us on social media for regular updates and to share this exciting news
                             with your friends. Your
                             input means the world to us, so please let us know what you would love to see at Cafe Gato.
                             We can’t wait to hear your
                             ideas and see you in our cafe!</p>
                     </div>
-                    <div><img data-aos="fade-left" data-aos-duration="1200" class="journey_women"
+                    <div>
+                        <h2
+                            class="fs_lg d-md-none font_norwester mt-4 mt-md-0 fw-normal text-md-start text-center mb-1 pb-3 lh_120">
+                            JOIN OUR JOURNEY
+                        </h2><img data-aos="fade-left" data-aos-duration="1200" class="journey_women my-4 my-md-none"
                             src="/assets/images/webp/journey-women.webp" alt="journey-women">
                     </div>
                 </div>
@@ -232,7 +242,7 @@
                     <img class="position-absolute thankyou_left_light d-lg-block d-none"
                         src="/assets/images/svg/thankyou_light.svg" alt="thankyou_light">
                     <h2 data-aos="fade-up" data-aos-duration="1200"
-                        class="text-white px-1 px-lg-0 font_sm font_norwester mb-0 thankyou_heading mx-auto text-center fs_lg pt-md-5 pt-sm-4 pt-3 pb-4 lh_120">
+                        class="text-white px-1 px-lg-0 font_sm font_norwester mb-0 thankyou_heading mx-auto text-center fs_lg pt-md-5 pt-sm-4 pt-3 pb-sm-4 pb-2 lh_120">
                         Thank you again 🤗 for your support.
                         Together, we are building something truly special for our
                         community✌️</h2>
@@ -256,16 +266,16 @@
             <img class="position-absolute left_paws start-0 bottom-0 mb-4 d-xl-block d-none"
                 src="/assets/images/svg/left-paws.svg" alt="right-paws">
             <div class="custom_container py-md-2 py-lg-0 position-relative z-1">
-                <h2 class="text-center clr_blue pb-3 mb-0 font_norwester lh_120 fs_lg">Stay Connected</h2>
+                <h2 class="text-center text_blue pb-3 mb-0 font_norwester lh_120 fs_lg">Stay Connected</h2>
                 <div
-                    class="d-flex flex-md-row gap-4 gap-md-0 flex-column-reverse align-items-center mt-5 pt-4 justify-content-between align-items-center">
+                    class="d-flex flex-md-row gap-4 gap-md-0 flex-column-reverse align-items-center mt-sm-5 mt-4 pt-md-4 justify-content-between align-items-center">
                     <div class="d-flex w-100 flex-column">
                         <form id="myForm" class="w-100 d-flex align-items-md-start align-items-center flex-column">
                             <input data-aos="fade-up" data-aos-duration="1200" required
-                                class="connected_input font_inter clr_blue fs_sm w-100" type="text"
+                                class="connected_input font_inter text_blue fs_sm w-100" type="text"
                                 placeholder="Enter your name">
                             <input data-aos="fade-up" data-aos-duration="1400" required
-                                class="connected_input font_inter clr_blue fs_sm w-100" type="email"
+                                class="connected_input font_inter text_blue fs_sm w-100" type="email"
                                 placeholder="Enter your email">
                             <button type="submit"
                                 class="text-white bg_brown transition_300 fw-semibold font_inter fs_sm w-100 submit_btn">Submit</button>
@@ -281,8 +291,9 @@
         <!-- ========================= FOOTER ================================= -->
         <footer class="bg_blue">
             <div class="d-flex align-items-center flex-column">
-                <img class="footer_logo nav_logo mt-5 mb-4" src="/assets/images/webp/nav-logo.webp" alt="logo">
-                <div class="d-flex gap_38 mb-5 pb-2 align-items-center">
+                <a aria-label="footer-logo" href="/index.html"><img class="nav_logo mt-5 mb-4"
+                        src="/assets/images/webp/nav-logo.webp" alt="logo"></a>
+                <div class="d-flex pt-3 gap_38 mb-5 pb-2 align-items-center">
                     <a class="footer_icons transition_300" aria-label="instagram" href="https://www.instagram.com/">
                         <img src="/assets/images/svg/instagram.svg" alt="instagram"></a>
                     <a class="footer_icons transition_300" aria-label="facebook" href="https://www.facebook.com/"> <img
@@ -296,7 +307,7 @@
                     <a class="footer_icons transition_300" aria-label="call" href="tel:+1234567890"> <img
                             src="/assets/images/svg/call.svg" alt="instagram"></a>
                 </div>
-                <span class="mt-1 d-flex footer_line w-100 my-3" h="1"></span>
+                <span class="mt-1 d-flex footer_line w-100 my-3"></span>
                 <p id="footer-text" class="text-white font_inter fs_xsm"></p>
             </div>
         </footer>
